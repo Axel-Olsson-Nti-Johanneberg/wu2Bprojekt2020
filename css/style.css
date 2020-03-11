@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+}
+#container{
+    display: grid;
+    grid-template-rows: 40vh 10vh 40vh 40vh 40vh 10vh;
+    grid-template-columns: 100vw;
+    margin: 0;
+    grid-template-areas: 
+    'im'
+    'nv'
+    'a1'
+    'a2'
+    'a3'
+    'ft';
+
+    
+}
+
+#img{
+    grid-area: im;
+    background: lawngreen;
+}
+
+nav{
+    grid-area: nv;
+    background: rebeccapurple;
+    position: sticky;
+    top: 0;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.lank{
+    width: 50vw;
+    height: 5em;
+    display: block;
+}
+
+#a1{
+    grid-area: a1;
+    background: firebrick;
+}
+
+#a2{
+    grid-area: a2;
+    background: salmon;
+
+}
+
+#a3{
+    grid-area: a3;
+    background: goldenrod;
+}
+
+footer{
+    grid-area: ft;
+    background: hotpink;
+}
