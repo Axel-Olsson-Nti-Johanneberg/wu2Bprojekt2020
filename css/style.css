@@ -19,7 +19,10 @@ body{
 
 #img{
     grid-area: im;
-    background: lawngreen;
+    background-image: url(../img/Rugby_players_at_Trinity_College.jpg);
+    overflow: hidden;
+    background-size: cover;
+
 }
 
 nav{
@@ -36,9 +39,11 @@ ul{
 }
 
 .lank{
-    width: 50vw;
-    height: 5em;
     display: block;
+    width: 100px;
+    height: 20px;
+    background: gray;
+    
 }
 
 #a1{
