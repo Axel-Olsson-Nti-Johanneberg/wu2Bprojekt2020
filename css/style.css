@@ -124,9 +124,38 @@ h1{
 }
 
 #articleRegler{
-    
+    grid-area: as;
+    padding: 12px;
 }
 
 #imgarticle{
-    width: 30vw;
+    width: 25vw;
+}
+
+.imgRegler{
+    width: 65vw;
+}
+
+#containerHis{
+    display: grid;
+    grid-template-rows: 40vh 10vh auto auto;
+    grid-template-areas: 
+    'im'
+    'nv'
+    'mn'
+    'jn';
+}
+
+#img2{
+    grid-area: im;
+    background-image: url(../img/A_Football_Match.jpg);
+    overflow: hidden;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+#ja-nej{
+    display: inline-block;
+    grid-area: jn;
+    padding: 50px;
 }
