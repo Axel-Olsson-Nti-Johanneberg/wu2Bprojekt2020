@@ -180,7 +180,10 @@ h1{
 }
 .nej{
     display: none;
-    background: red;
+    background: gray;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
     position: fixed;
     left: 50%;
     transform:translateX(-50%) translateY(-50%);
@@ -192,7 +195,10 @@ h1{
 }
 .ja{
     display: none;
-    background: red;
+    background: gray;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
     position: fixed;
     left: 50%;
     transform:translateX(-50%) translateY(-50%);
