@@ -112,38 +112,41 @@ h1{
 
 #containerRegler{
     display: grid;
-    grid-template-rows: 10vh auto 10vh;
-    grid-template-columns: 70vw 30vw;
+    grid-template-rows: 10vh auto auto 10vh;
+    grid-template-columns: 100vw;
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     grid-template-areas: 
-    'nv nv'
-    'mn as'
-    'ft ft'
+    'nv'
+    'mn'
+    'as'
+    'ft'
     ;
 }
 
 #articleRegler{
+    display: flex;
     grid-area: as;
     padding: 12px;
 }
 
 #imgarticle{
-    width: 25vw;
+    width: 50vw;
 }
 
 .imgRegler{
-    width: 65vw;
+    width: 90vw;
 }
 
 #containerHis{
     display: grid;
-    grid-template-rows: 40vh 10vh auto auto;
+    grid-template-rows: 40vh 10vh auto auto 10vh;
     grid-template-areas: 
     'im'
     'nv'
     'mn'
-    'jn';
+    'jn'
+    'ft';
 }
 
 #img2{
@@ -168,3 +171,5 @@ h1{
     display: flex;
     justify-content: center;
 }
+
+
