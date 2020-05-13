@@ -323,4 +323,14 @@ h1{
         color: white;
     }
  
+    .lank:hover{
+    background: white;
+    color: black;
+    }
+
+    .lank:active{
+        background: black;
+        color: white;
+    }
+
 }
